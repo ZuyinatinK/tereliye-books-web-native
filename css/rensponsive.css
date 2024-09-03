@@ -1,0 +1,43 @@
+@media screen and (max-width:600px){
+  body{
+    font-size: 14px;
+  }
+
+  .navigasi {
+    position: static;
+    width: 100%;
+}
+
+  .navigasi h1 {
+    font-weight: bold;
+    color: rgb(234, 226, 183);
+    float: none;
+    text-align: center;
+}
+
+  .menunavigasi ul {
+  float: none;    
+}
+
+  .menunavigasi ul li {
+  float:none;
+  text-align: center;    
+}
+
+  .pembungkus {
+    width: 100%;
+  }
+
+  .kiri {
+    box-sizing: border-box;
+    width: 100%;
+    float: none;
+}
+
+.kanan{
+  width: 100%;
+  box-sizing: border-box;
+  float: none;
+}
+
+}

@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-image: url("image/coba.jpg");
+    background-attachment: fixed;
+}
+.navigasi{
+    background-color:#a4243b;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+}
+.navigasi h1{
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+.menunavigasi ul {
+    list-style-type: none;
+    float: right;
+}
+.menunavigasi ul li{
+    float: left;
+}
+.menunavigasi li a{
+    display: block;
+    text-decoration:none ;
+    font-size: 14px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+.menunavigasi li a:hover{
+    background-color: #a4243b;
+    color: #081c15;
+}
+.pembungkus {
+    width: 800px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    height: 290px;
+    display: block;
+    background-size: cover;
+}
+.konten{
+    background-color:white;
+    padding: 10px;
+    color: rgb(99, 34, 34);
+    border-color: rgb(151, 53, 28);
+    border-style: hidden;
+    border-width: 5px;
+}
+.konten h1.judulartikel{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.konten p.tanggalposting{
+    font-size: 10px;
+    color: royalblue;
+    margin-top: 10px;
+}
+.isiartikel{
+    margin-top: 25px;
+}
+.potonganartikel {
+    margin-bottom:40px;
+}
+.potonganartikel .next a {
+    text-decoration: none;
+    background-color:#a4243b;
+    color: rgb(234, 226, 183);
+    padding: 5px;
+}
+.isiartikel p{
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.isiartikel img.gambarisiartikel{
+    /* position: relative; */
+    width: 100px;
+    float: left;
+    /* height: 120px; */
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.kiri {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    color: rgb(95, 9, 9);
+    float: left;
+}
+.kanan {
+    box-sizing: border-box;
+    width: 25%;
+    float: right;
+    padding-top: 20px;
+}
+.artikel {
+    margin-bottom: 50px;
+}
+.kiri h1.judulartikel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.kiri p.tanggalposting {
+    font-size: 10px;
+    color: #d42545;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.tombolmore {
+    background-color: #b75252;
+    padding: 5px;
+    border-style: solid;
+}
+a.tombolmore {
+    text-decoration: none;
+    color: rgb(66, 7, 7);
+}
+a:hover.tombolmore {
+    background-color: #914040;
+    color: #081c15;
+    border-style: solid;
+    border-color: #081c15;
+    border-width: 1.5px;
+}
+.kanan .judulsidebar {
+    background-color: #a7421a;
+    color :rgb(230, 218, 218);
+    text-align: center;
+    padding: 10px;
+}
+.kanan .isisidebar {
+    color: rgb(53, 9, 9);
+    text-align: justify;
+    padding: 10px;
+}
+.kanan p.jorij {
+    color: rgb(53, 9, 9);
+    line-height: 25px;
+    padding: 10px;
+}
+.kanan img.gambartentangkami{
+    width: 75px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: left;
+}
+.isidebar ul {
+    line-height: 17px;
+}
+.tentangkami {
+    margin-bottom: 5px;
+}
+.isidebar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.isidebar ul li a:hover{
+    color: 081c15;
+}
+.artikelpopuler {
+    margin-top: 20px;
+}
+.footer{
+    padding: 15px;
+    background-color: #811616;
+    color: white;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+thead {
+    background-color: #c32ae2;
+    color: white;
+  }
+
+th{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
