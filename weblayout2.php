@@ -15,7 +15,7 @@
     <title>Tere Liye Books Web</title>
 </head>
 
-<body>
+<body style='background-image: url("image/coba.jpg");'>
 <?php
     //script query
     $sql = "SELECT tb_artikel.tanggal, tb_artikel.judul, tb_artikel.isi,
@@ -78,7 +78,7 @@
                 <div class="tentangkami">
                     <h1 class="judulsidebar">Tentang Kami</h1>
                     <p class="isisidebar">
-                        <img src="image/ZUY.jpeg" class="gambartentangkami"> Hi! Zuyinatin Khofifah is my name. I have been actively writing about light and fun things since college.
+                        <img src="image/profile.jpeg" class="gambartentangkami"> Hi! Zuyinatin Khofifah is my name. I have been actively writing about light and fun things since college.
                                 I am an introverted, inquiring person, who loves reading. Reading is something I really liked since elementary school.
                                 The book genres I love the most are fantasy fiction, fairy tales, and memoirs. How about you? 
                     </p>

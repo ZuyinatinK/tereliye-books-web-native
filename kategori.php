@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/rensponsive.css">
     <title>Tere Liye Books Web</title>
     </head>
-    <body>
+    <body style='background-image: url("image/coba.jpg");'>
         <?php 
         
             $sql = "SELECT kategori.judul, kategori.halaman, kategori.genre  FROM kategori";

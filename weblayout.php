@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/rensponsive.css">
     <title>Tere Liye Books Web</title>
 </head>
-<body>
+<body style='background-image: url("image/coba.jpg");'>
     <!--Bagian Navigasi-->
     <div class="navigasi">
         <h1 class="judulweb">Tere Liye Books Web</h1>
